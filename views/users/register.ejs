@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form action="/register" method="POST">
+      <div>
+        <label>Email</label>
+        <input type="text" name="user[email]"/><br/><br/>
+      </div>
+      <div>
+        <label>Password</label>
+        <input type="password" name="user[password]"/><br/><br/>
+      </div>
+      <div>
+        <input type="submit" value="Sign Up" name="submit"/>
+      </div>
+    </form>
+  </body>
+</html>
